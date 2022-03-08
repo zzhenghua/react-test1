@@ -3,7 +3,7 @@
  * @Author: Zeng
  * @Date: 2022-02-18 00:33:23
  * @LastEditors: Zeng
- * @LastEditTime: 2022-02-20 17:45:41
+ * @LastEditTime: 2022-03-09 00:28:02
  */
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -17,7 +17,7 @@ const Hello1 = () => <h1>这是hello函数组件</h1>
 
 const Hello2 = (props) => {
   return (
-    <h2>这是hello{props.x}函数组件</h2>
+    <h2>这是hello{props.x}函数组件666</h2>
   )
 }
 
